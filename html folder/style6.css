@@ -1,0 +1,17 @@
+@keyframes my-animation {
+    from{background-color: antiquewhite;}
+    to {background-color: aquamarine;}
+}
+
+body {
+    animation: my-animation 2s;
+}
+
+img {
+    width: 300px;
+    transition: 1s;
+}
+
+img:active {
+    width: 800px;
+}

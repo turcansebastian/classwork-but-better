@@ -1,0 +1,11 @@
+div a {
+    background-color: antiquewhite;
+    padding: 30px;
+}
+a > h1 {
+    background-color: aqua;
+    color: antiquewhite;
+}
+a + a {
+    background-color: red;
+}
